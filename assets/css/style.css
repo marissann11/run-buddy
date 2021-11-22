@@ -63,27 +63,25 @@ footer a {
 section {
     padding: 60 px;
 }
-.intro {
-    text-align: center;
-}
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 .steps {
-    text-align: center;
     background: #fce138;
 }
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .primary-border {
     border-color: #fce138;
@@ -109,9 +107,6 @@ section {
 }
 .steps span {
     font-size: 38px;
-}
-.trainers {
-    text-align: center;
 }
 .trainer {
     width: 900px;
@@ -150,7 +145,6 @@ section {
 }
 /*REACH OUT STYLES START*/
 .contact {
-    text-align: center;
     background: #024e76;
 }
 .contact h2 {
@@ -242,3 +236,6 @@ section {
     font-size: 16px;
 }
 /* Hero Style End */
+.flex-row {
+    display: flex;
+}
